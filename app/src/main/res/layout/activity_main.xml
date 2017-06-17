@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cameraapp.MainActivity">
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="287dp"
+        android:layout_height="45dp"
+        android:text="Capture and Upload"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="327dp"
+        android:layout_height="292dp"
+        app:srcCompat="@drawable/common_full_open_on_phone"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="190dp"
+        android:layout_below="@+id/upload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+</RelativeLayout>
